@@ -13,10 +13,11 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.4.2'
   gem 'pry-rails', '~> 0.3.4'
   gem 'rspec-rails', '~> 3.5'
+  gem 'faker', '~> 1.7.2'
 end
 
 group :development do
   gem 'listen', '~> 3.0.5'
-  gem 'spring'
+  gem 'spring', '~> 2.0.0'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end

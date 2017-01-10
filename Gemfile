@@ -8,6 +8,7 @@ end
 gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
 gem 'pg', '~> 0.18'
+gem 'sidekiq', '~> 4.2.8'
 
 group :development, :test do
   gem 'pry-byebug', '~> 3.4.2'
